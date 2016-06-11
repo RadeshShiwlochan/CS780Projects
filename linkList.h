@@ -7,7 +7,7 @@ class linkList
 	Node* last;
 	linkList();
 	void printList();
-	//void insertionSort();
+	void insertionSort(Node*);
 
 };
 #endif
