@@ -16,6 +16,11 @@ Node::Node(int coeffnt, int pow)
 	next = nullptr;
 }
 
+Node::~Node() 
+{
+	delete next;
+}
+
 void Node::printNode()
 {
 	cout << coef << " " << exp;

@@ -8,6 +8,7 @@ class Node {
 
 		Node();
 		Node(int,int);
+		~Node();
 		void printNode();
 };
 #endif
